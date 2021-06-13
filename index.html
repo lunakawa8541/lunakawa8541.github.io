@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<style>
+<style type="text/css">
 * {
 padding: 0;
 margin: 10px;
@@ -29,7 +29,7 @@ margine: 50px 30px;
 }
 
 header {
-width: 995px;
+width: 1000px;
 height: 110px;
 margin-top: 10px;
 border: solid 1px #cccccc;
@@ -50,6 +50,7 @@ margin-top: 10px;
 vorder: solid 1px #cccccc;
 }
 aside {
+text-align: center;
 float: left;
 margin-right: 10px;
 margin-left: 40px;
@@ -61,7 +62,7 @@ margin-bottom: 40px;
 }
 
 footer {
-width: 995px;
+width: 1000px;
 height: 100px;
 border-top: solid 1px #cccccc;
 margin-top: 20px;
@@ -78,7 +79,7 @@ padding-right: 20px;
 }
 
 #page {
-width: 1010px;
+width: 1000px;
 margin: auto;
 border: solid 0px #cccccc;
 background-color: gray;
@@ -90,6 +91,12 @@ border : 1px solid #bbbbbb;
 margin-top : 10px;
 margin-left: 40px; /*여러분 시스템에 맞춰 조절하세요*/
 margin-right: 10px;
+}
+
+#menu
+{
+float: right;
+margin: 30px;
 }
 
 </style>
@@ -110,12 +117,9 @@ margin-right: 10px;
 <div class='clear'></div> <!-- float 속성 해제 -->
 <nav>
 <ul>
-<li>건프라를 시작하기 전에</li>
-<li>등급별 차이점과 특징</li>
-<li>처음 시작할때</li>
-<li>감을 잡았을때</li>
-<li>추천하는 킷</li>
-<li>추천하지 않는킷</li>
+<a href=a1.html><li>건프라를 시작하기 전에</li></a>
+<a href=b1.html><li>크기별 차이점과 특징</li></a>
+<a href=c1.html><li>추천하는 킷과 추천하지 않는 킷</li></a>
 <ul>
 </nav>
 
@@ -125,18 +129,18 @@ margin-right: 10px;
 </section>
 <aside>
 <ul>
-<li>반다이몰</li>
-<li>Gundam Holic</li>
-</ul>
+<a href=https://www.bandaimall.co.kr/defaults/index.do><li>반다이몰</li>
+<a href=https://www.youtube.com/user/holicsquare><li>Gundam Holic</li></a href
+></ul>
 </aside>
 
 <div class='clear'></div> <!--float 속성 해제 -->
 <footer>
-<div id='address'>
+<div id='address'><li>
 프라모델은 '플라스틱'이므로 파손에 주의합시다
 </div>
 <div id='customer'>
-리뷰 모음
+<a href=http://www.dalong.net/>리뷰 모음
 </div>
 </footer>
 </body>
